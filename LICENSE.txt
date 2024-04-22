@@ -1,6 +1,0 @@
-The MIT License (MIT)
-
-Copyright (c) 2024 Daniel Romero WS
-
-This code is for use only, the use of this code for personal use is not permitted.
-
