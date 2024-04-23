@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #130224, #7501c3, #2e09b3);
+}
+.home-bg {
+  background-image: url(../images/modern-2.jpg);
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.social > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 3px solid #bfbdbd;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.social > ul > li{
+    list-style-type: none;
+}
+
+.social > ul > li > a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.social > ul > li > a > i{
+    font-size: 40px;
+    color: #fff;
+}
+
+.navbar > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 3px solid #bfbdbd;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.navbar > ul > li{
+    list-style-type: none;
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.navbar > ul > li > a > i{
+    font-size: 40px;
+    color: #fff;
+}
+
+.social > ul > li > a > i:hover{
+    animation: vibe 0.3s;
+}
+
+.instagram{
+    margin: 0 2px;
+}
+
+.git{
+    background: #000000;
+}
+
+.insta{
+    background: #000000;
+}
+
+.face{
+    background: #000000;
+}
+
+.twitter{
+    background: #000000;
+}
+.Inicio{
+    background: #000000;
+   text-align: center;
+}
+
+.tele{
+    background: #000000;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: #dddddd;
+}
+
+
+
+@keyframes vibe {
+    10%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+    70%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(-15deg);
+    }
+}
